@@ -1,5 +1,5 @@
 {
-  "name": "node-ts-starter",
+  "name": "printer-testing",
   "packageManager": "yarn@3.1.0",
   "scripts": {
     "gen-env": "gen-env-types .env -o src/types/env.d.ts -e .",
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "dotenv-safe": "^8.2.0",
+    "escpos": "^3.0.0-alpha.6",
     "winston": "^3.3.3"
   }
 }
